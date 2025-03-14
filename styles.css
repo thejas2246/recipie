@@ -1,0 +1,112 @@
+body {
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container {
+    width: 800px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 25px;
+  border-radius: 10px;
+}
+img {
+  width: 100%;
+  border-radius: 8px;
+}
+h1 {
+  font-family: Young Serif;
+  color: hsl(24, 5%, 18%);
+}
+h2 {
+  font-family: Young Serif;
+  color: hsl(14, 45%, 36%);
+}
+.recipie-title p {
+  font-family: Outfit;
+  color: hsl(30, 10%, 34%);
+  font-size: 16px;
+}
+.Pink span {
+  font-weight: bold;
+}
+.Pink {
+  background-color: hsl(330, 100%, 98%);
+  padding: 18px;
+  font-family: Outfit;
+  border-radius: 8px;
+  color: hsl(30, 10%, 34%);
+}
+.Pink h4 {
+  margin-top: 0;
+  color: hsl(332, 51%, 32%);
+}
+.Pink li::marker {
+  color: hsl(332, 51%, 32%);
+  margin-left: 20px;
+}
+.Pink li {
+  padding: 5px;
+}
+.ingredients li {
+  font-family: Outfit;
+  color: hsl(30, 10%, 34%);
+  padding: 5px;
+}
+.ingredients li::marker {
+  color: hsl(14, 45%, 36%);
+}
+.Instructions li::marker {
+  color: hsl(332, 51%, 32%);
+  font-weight: bold;
+}
+
+.Instructions li {
+  font-family: Outfit;
+  color: hsl(30, 10%, 34%);
+  padding: 5px;
+}
+.Instructions span {
+  font-weight: bold;
+}
+.table {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, 40px);
+  
+  
+}
+.table div {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.nutrition{
+    font-family: Outfit;
+    color: hsl(30, 10%, 34%);
+}
+
+@media(max-width:850px){
+    body{
+        padding: 0;
+    }
+    img{
+        border-radius: 0;
+    }
+    .container{
+        border-radius: 0;
+    }
+    .s-container{
+    padding: 25px;
+    }
+    .container{
+        padding: 0;
+        width: auto;
+    }
+    body{
+        margin: 0;
+    }
+}
