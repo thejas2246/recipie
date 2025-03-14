@@ -3,11 +3,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .container {
-    width: 800px;
+  width: 500px;
   background-color: hsl(0, 0%, 100%);
   padding: 25px;
   border-radius: 10px;
@@ -75,8 +74,6 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(4, 40px);
-  
-  
 }
 .table div {
   border-bottom: 1px solid hsl(30, 18%, 87%);
@@ -84,29 +81,29 @@ h2 {
   display: flex;
   align-items: center;
 }
-.nutrition{
-    font-family: Outfit;
-    color: hsl(30, 10%, 34%);
+.nutrition {
+  font-family: Outfit;
+  color: hsl(30, 10%, 34%);
 }
 
-@media(max-width:850px){
-    body{
-        padding: 0;
-    }
-    img{
-        border-radius: 0;
-    }
-    .container{
-        border-radius: 0;
-    }
-    .s-container{
+@media (max-width: 580px) {
+  body {
+    padding: 0;
+  }
+  img {
+    border-radius: 0;
+  }
+  .container {
+    border-radius: 0;
+  }
+  .s-container {
     padding: 25px;
-    }
-    .container{
-        padding: 0;
-        width: auto;
-    }
-    body{
-        margin: 0;
-    }
+  }
+  .container {
+    padding: 0;
+    width: auto;
+  }
+  body {
+    margin: 0;
+  }
 }
